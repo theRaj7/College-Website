@@ -1,0 +1,350 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+.notification{
+  width: 100%;
+  height: 30px;
+  background-color: rgb(78, 119, 119);
+}
+
+.nav{
+  padding-top: 20px;
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(233, 234, 236);
+  width: 100%;
+  height: 60px;
+}
+.Header{
+  font-weight: bolder;
+  margin-right: 15%;
+  margin-left: 30px;
+}
+a{
+  padding-right: 30px;
+  text-decoration: none;
+}
+#nf{
+  margin-right: 15%;
+
+}
+.button{
+  font-size: 17px;
+  height: 40px;
+  width: auto;
+  background-color: white;
+  border: 2px solid blue;
+  padding: 7px 20px 10px 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin-right:25px ;
+  margin-bottom: 10px;
+}
+
+.button:hover{
+  background-color:blue;
+  color:rgb(233, 234, 236);
+  border-color: white;
+}
+
+/* Landing Page */
+
+.l-container{
+  display: flex;
+  width: 100%;
+  height: 95vh;
+  background-color: rgb(209, 203, 203);
+}
+.Con-1{
+  width: 50%;
+  padding: 40px 0 0px 80px;
+  
+}
+.c-heading{
+  font-size: 70px;
+  padding-top:15%;
+  margin-bottom: 20px;
+  
+}
+.c-para{
+  font-size: 18px;
+  color: rgba(39, 38, 38, 0.676);
+  margin-bottom: 20px;
+}
+.c-button{
+  height: 38px;
+  padding: 10px 20px 10px 20px;
+  border: 5px  none ;
+  border-radius: 20px;
+  background-color: hsl(120, 83%, 53%);
+  color: white  ;
+
+}
+.photo{
+  padding: 20px 0 0 50px;
+  /* background-color: aqua; */
+  width: 50%;
+  display:flex;
+  flex-wrap:wrap;
+  align-content: center;
+}
+
+.l-photo{
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  /* border-top-right-radius:100px; */
+  /* border-bottom-left-radius:100px; */
+ 
+}
+
+#img1{
+  background-image: url(boy\ 1.jpg);
+  background-size: cover;
+  border-radius: 50px;
+  
+}
+#img2{
+  background-size: cover;
+  /* border-radius: 50px; */
+  background-image: url(Girl\ 1.jpg);
+  border-bottom-right-radius:100px;
+  border-top-left-radius:100px;
+}
+#img3{
+  background-size: cover;
+  background-image: url(boy\ 2.jpg);
+  border-bottom-right-radius:100px;
+  border-top-left-radius:100px;
+}
+#img4{
+  background-size: cover;
+  border-radius: 50px;
+  background-image: url(girl\ 2.webp);
+}
+
+/* <!-- PAGE 2 --> */
+.page2{
+  margin: 50px 0 10px 0;
+  text-align: center;
+  /* margin-bottom: 10px; */
+}
+
+.dep-heading{
+  font-size: 35px;
+}
+.dep-para{
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+.Dep-container{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box{
+  width: 250px;
+  height: 250px;
+  font-size: 100px;
+  margin: 20px;
+  /* border: 1px solid; */
+  /* box-shadow: 15px 20px #888888; */
+  box-shadow:
+  inset 0 -3em 3em rgb(0 200 0 / 30%),
+  0 0 0 2px white,
+  0.3em 0.3em 1em rgba(28, 57, 185, 0.6);
+}
+
+.box-img{
+  width: 100px;
+  padding-top: 10px;
+}
+.img-heading{
+  margin-top: 20px;
+  font-size: 25px;
+}
+.img-tag{
+  font-size: 15px;
+}
+
+/* #box1{
+  background-color:rgb(214, 138, 44);
+}
+#box2{
+  background-color:rgb(104, 214, 44);
+}
+#box3{
+  background-color:rgb(44, 188, 214);
+}
+#box4{
+  background-color:rgb(214, 44, 152);
+}
+#box5{
+  background-color:rgb(245, 214, 42);
+}
+#box6{
+  background-color:rgb(138, 31, 177);
+}
+#box7{
+  background-color:rgb(157, 51, 58);
+}
+#box8{
+  background-color:rgb(44, 143, 2);
+} */
+
+/* PAGE 3 */
+.page3{
+  margin-top: 10%;
+  padding-top: 5%;
+  width: 100%;
+  height: 300px;
+  background-color:rgb(209, 203, 203);
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  
+}
+.University{
+  margin-top: 30px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content:space-around;
+}
+.uni{
+  height: 100px;
+  width: 250px;
+  /* background-color: grey; */
+  display: inline-flex;
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  justify-content: center;
+}
+.uni-img{
+  width: 150px;
+  border-radius: 40px;
+}
+.uni-name{
+  margin-top: 25px;
+}
+/* PAGE 4 */
+.page4{
+  text-align: center; 
+  margin-top: 5%;
+  
+}
+.Courses-Container{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Course{
+  width: 300px;
+  height: 350px;
+  font-size: 100px;
+  margin: 15px;
+  background-color:#78946168;
+  font-size: 15px;
+  border-radius: 20px;
+  text-align: left;
+  /* border: 1px solid; */
+  /* box-shadow: 15px 20px #888888; */
+  /* box-shadow:
+  inset 0 -3em 3em rgb(0 200 0 / 30%),
+  0 0 0 2px white,
+  0.3em 0.3em 1em rgba(28, 57, 185, 0.6); */
+}
+.Course-Img{
+  width: 300px;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+}
+.Course-Name{
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+.Course-Duration{
+font-size: 17px;
+padding-left: 20px;
+float: left;
+
+
+}
+.Course-Price{
+  font-size: 17px;
+  float: right;
+  padding-right: 20px;
+  padding-right: 20px;
+
+}
+.Course-Button{
+  margin-top: 10px;
+  background-color: rgb(36, 137, 36);
+  color: white;
+  margin-left: 20px;
+  height: 35px;
+  padding: 7px 15px;
+  border: 2px none;
+  border-radius: 10px;
+
+}
+.learn-more{
+  margin: 50px;
+  width: auto;
+  height: 50px;
+  padding: 5px 20px;
+  font-size: 18px;
+  border: 1px solid none;
+  border-radius: 20px;
+}
+
+/* PAGE 5 */
+/* .page5{
+  text-align: center;
+  margin-top: 7%;
+  
+  
+}
+.Images {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  display: inline-block;
+}
+.i-box{
+  width: 400px;
+  height: 400px;
+  background-color: violet;
+  margin: 10px;
+
+}
+#img-box1{
+  height: 1000px;
+  display: inline-block;
+  float: left;
+  text-align: l;
+  
+}
+#img-box2{
+  width: 400px;
+}
+.block{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+}
+ */
